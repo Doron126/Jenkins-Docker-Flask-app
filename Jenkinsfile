@@ -18,7 +18,7 @@ pipeline {
         stage('Run Flask App') {
             steps {
                 sh '''
-                source venv/bin/activate
+                . venv/bin/activate
                 python app.py &
                 APP_PID=$!
                 sleep 5
