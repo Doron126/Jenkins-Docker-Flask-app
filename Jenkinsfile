@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/your-username/your-flask-repo.git'
+                git 'https://github.com/Doron126/Jenkins-Docker-Flask-app.git'
             }
         }
         stage('Setup Environment') {
