@@ -18,4 +18,5 @@ It includes a basic Flask application that is containerized using Docker and dep
 4. Check the app on Jenkins and see if all the stages completed successfully.
 5. Run the Docker container on your machine and go to http://<localhost>:5000
 
-   ![image](https://github.com/user-attachments/assets/ffd0e535-f344-44d8-a090-5dfaf0b2d634)
+# **License**
+MIT
