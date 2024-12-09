@@ -1,4 +1,4 @@
-## **To-do-app**
+## **To-Do-App**
 
 # **Overview**
 This repository demonstrates the integration of Jenkins, Docker, and Flask to create a simple web application with a Continuous Integration/Continuous Deployment (CI/CD) pipeline.
