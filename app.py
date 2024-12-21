@@ -3,10 +3,8 @@ import os
 import mysql.connector
 from mysql.connector import Error
 
-# Flask app initialization
 app = Flask(__name__)
 
-# Database connection function
 def create_connection():
     try:
         connection = mysql.connector.connect(
@@ -19,8 +17,6 @@ def create_connection():
     except Error as e:
         print(f"Error connecting to MySQL: {e}")
         return None
-
-# Routes
 
 @app.route('/')
 def index():
