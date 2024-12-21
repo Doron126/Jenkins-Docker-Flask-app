@@ -12,7 +12,7 @@ def create_connection():
         connection = mysql.connector.connect(
             host=os.getenv("DATABASE_HOST", "10.160.11.32"),
             user=os.getenv("DATABASE_USER", "todo_user"),
-            password=os.getenv("DATABASE_PASSWORD", "D630@bynet"),
+            password=os.getenv("DATABASE_PASSWORD", "password"),
             database=os.getenv("DATABASE_NAME", "tasks_db")
         )
         return connection
