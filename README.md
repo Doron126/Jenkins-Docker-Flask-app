@@ -1,22 +1,27 @@
 ## **To-Do-App**
 
 # **Overview**
-This repository demonstrates the integration of Jenkins, Docker, and Flask to create a simple web application with a Continuous Integration/Continuous Deployment (CI/CD) pipeline.
-It includes a basic Flask application that is containerized using Docker and deployed with the help of Jenkins.
+This is a simple and visually appealing To-Do List Application built using Python and Flask for the backend and HTML for the frontend.
+It uses MySQL as the database to persist tasks and their statuses. The application allows users to add, mark as done, and delete tasks through an intuitive web interface.
 
 # **Technologies used**
 * Python
 * Flask
 * HTML
-* Docker
-* Jenkins
+* MySQL
 
 # **Instructions**
 1. Clone the repository.
-2. Have Jenkins and Docker installed.
-3. Create a new Item, choose pipeline and in the configuration choose "pipeline script from SCM"
-4. Check the app on Jenkins and see if all the stages completed successfully.
-5. Run the Docker container on your machine and go to http://<localhost>:5000
+2. Install Python and the requirements.txt.
+3. Set up a MySQL server accordint to the Python script.
+4. Run the App.
+5. Go to the http URL and start using the App.
+
+<img width="730" alt="image" src="https://github.com/user-attachments/assets/732c2dec-f8a5-44b3-96a4-d300daedc03b" />
+
+<img width="392" alt="image" src="https://github.com/user-attachments/assets/1bbac3ac-555c-46d5-8412-c1f40005e4bf" />
+
+
 
 # **License**
 MIT
